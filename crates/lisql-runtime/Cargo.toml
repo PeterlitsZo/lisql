@@ -1,0 +1,6 @@
+[package]
+name = "lisql-runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Typed SQL operators and dialect rendering for Lisql-generated Rust"

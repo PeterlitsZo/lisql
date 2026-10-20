@@ -1,0 +1,16 @@
+[package]
+name = "lisql"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Compile Lisp-style SQL queries into callable Rust modules"
+
+[dependencies]
+lisql-runtime.workspace = true
+clap = { version = "4", features = ["derive"] }
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+prettyplease = "0.2"
+same-file = "1"
+tempfile = "3"
